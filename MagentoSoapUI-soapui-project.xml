@@ -108,19 +108,13 @@ if( requestBody.contains("some data") )
     "lastname": "Pandey",
     "password_hash": "302f016ae9ad2f7b6138fe7c437b0514:85aA7QxVqkbCPvIZaCP1Fh55HSthPzHH",
     "addresses": [],
-    "Status": [
-        {
-            "error": "1",
-            "errorMsg": "Success"
-        }
-    ],
     "token": "U69CWUKTIKLSZCVQUDYZQHCIVF4DB1K5",
     "error": "0",
     "errorMsg": "Done"
-}</con:responseContent></con:response><con:response name="Invalid Password" id="b2c1c524-4ebc-417e-adeb-0fc016e82e66" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>globalCompanyFields {
-  "error": "1",
-  "errorMsg": "The password you entered is not registered. Please enter another password and try again or create an account."
-}</con:responseContent></con:response><con:response name="Invalid Email" id="17d8a543-7e5c-4e3e-8b45-4a9dac3a9b5b" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>globalCompanyFields {
-  "error": "2",
-  "errorMsg": "The email you entered is not registered. Please enter another email and try again or create an account."
+}</con:responseContent></con:response><con:response name="Invalid Password" id="b2c1c524-4ebc-417e-adeb-0fc016e82e66" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
+    "error": "2",
+    "errorMsg": "The password you entered is incorrect. Please try again."
+}</con:responseContent></con:response><con:response name="Invalid Email" id="17d8a543-7e5c-4e3e-8b45-4a9dac3a9b5b" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
+    "error": "1",
+    "errorMsg": "The email you entered is incorrect. Please try again."
 }</con:responseContent></con:response></con:restMockAction></con:restMockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
