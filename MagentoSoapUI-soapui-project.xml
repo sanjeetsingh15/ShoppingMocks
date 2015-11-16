@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="24a7042c-f8e1-48f2-9eb8-c450ee9434ce" activeEnvironment="Default" name="MagentoSoapUI" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="398a42e3-1d56-45b8-b6a3-b9266dc465fd" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8025" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://WKS231:8089/</con:endpoint><con:endpoint>http://localhost:8025</con:endpoint></con:endpoints><con:resource name="" path="/users/login/" id="3e1504e6-66fa-417b-9ffc-b742e616b68f"><con:settings/><con:parameters/><con:method name="" id="84d4954a-ca45-4408-acb9-9a1f60aa7686" method="POST"><con:settings><con:setting id="RecordResponseRepresentations">true</con:setting></con:settings><con:parameters/><con:representation type="RESPONSE"><con:mediaType>text/html; charset=iso-8859-1</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="c5c16f4b-dd40-423a-9888-1068a6b2f416" mediaType="application/x-www-form-urlencoded" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:originalUri>http://localhost/users/login</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource></con:interface><con:restMockService id="f8718c52-a97a-4b7e-b4c1-95a6623b17ed" port="8025" path="/magento_1.9/index.php/phonegapapp/" host="WKS231" name="MagentoMobileMockAPI" docroot=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.panels.mock.WsdlMockServiceDesktopPanel$LogListModel@maxSize">100</con:setting></con:settings><con:properties/><con:restMockAction name="/users/login/" method="POST" resourcePath="users/login" id="598551ff-8d1c-46bc-966a-acc5cd44cc47"><con:settings/><con:defaultResponse>Login Successful</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>import groovy.json.JsonSlurper
+<con:soapui-project id="24a7042c-f8e1-48f2-9eb8-c450ee9434ce" activeEnvironment="Default" name="MagentoSoapUI" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="398a42e3-1d56-45b8-b6a3-b9266dc465fd" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8025" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://WKS231:8089/</con:endpoint><con:endpoint>http://localhost:8025</con:endpoint></con:endpoints><con:resource name="" path="/users/login/" id="3e1504e6-66fa-417b-9ffc-b742e616b68f"><con:settings/><con:parameters/><con:method name="" id="84d4954a-ca45-4408-acb9-9a1f60aa7686" method="POST"><con:settings><con:setting id="RecordResponseRepresentations">true</con:setting></con:settings><con:parameters/><con:representation type="RESPONSE"><con:mediaType>text/html; charset=iso-8859-1</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="c5c16f4b-dd40-423a-9888-1068a6b2f416" mediaType="application/x-www-form-urlencoded" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:originalUri>http://localhost/users/login</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource><con:resource name="" path="/categories/categories/" id="e2fdb9c4-f178-4ad1-828e-6717f8b5a714"><con:settings/><con:parameters/><con:method name="Method 1" id="f36a2c18-b694-4cf1-8718-9ceb42343ab5" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="d2e751f8-1a7f-4078-83fa-4636e9b86e93" mediaType="application/json"><con:settings/><con:endpoint>http://WKS231:8089/</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="" path="/cart/addCart/" id="ec03d429-1925-4319-bfd0-b5e64d37e164"><con:settings/><con:parameters/><con:method name="Method 1" id="7c2772a7-a312-4f81-b5d4-5d7c7a6fccd7" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="a7921f16-2fd9-44d7-b1e2-3d8bfccc1d03" mediaType="application/json"><con:settings/><con:endpoint>http://WKS231:8089/</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="" path="/categories/categoryDetail/" id="b481760e-5eda-47ad-9707-00faa086fce1"><con:settings/><con:parameters/><con:method name="Method 1" id="8fe89b5f-12ad-46aa-8688-62d3f4375035" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="20c164cc-c6c8-4a94-be48-70693169f7b9" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://WKS231:8089/</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:restMockService id="f8718c52-a97a-4b7e-b4c1-95a6623b17ed" port="8025" path="/magento_1.9/index.php/phonegapapp/" host="WKS231" name="MagentoMobileMockAPI" docroot=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.panels.mock.WsdlMockServiceDesktopPanel$LogListModel@maxSize">100</con:setting></con:settings><con:properties/><con:restMockAction name="/users/login/" method="POST" resourcePath="users/login" id="598551ff-8d1c-46bc-966a-acc5cd44cc47"><con:settings/><con:defaultResponse>Login Successful</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
 // The password you entered is incorrect. Please try again.// Match based on path
 
@@ -20,11 +20,13 @@ def acceptEncodingHeaderList = mockRequest.getRequestHeaders().get("Accept-Encod
 // Match based on body
 def requestBody = mockRequest.getRequestContent()
 
-def jsonReq = new JsonSlurper().parseText(requestBody)
+
 
 
 if (requestPath ==  "/magento_1.9/index.php/phonegapapp/users/login/") 
  {
+ 	def jsonReq = new JsonSlurper().parseText(requestBody)
+ 	
        if(jsonReq.email == "sarvagya.pandey@netsolutionsindia.com") 
     	      {
 	       if(jsonReq.password == "123456")
@@ -78,7 +80,7 @@ if (requestPath ==  "/magento_1.9/index.php/phonegapapp/users/login/")
     "error": "1",
     "errorMsg": "The email you entered is incorrect. Please try again."
 }</con:responseContent></con:response><con:response name="Login Incorrect Path" id="4562de0e-2486-43da-98b6-113650478c30" httpResponseStatus="200"><con:settings/><con:responseContent>{
-    "error": "3",
+    "error": "404",
     "errorMsg": "The path is incorrect. Please try again."
 }</con:responseContent></con:response></con:restMockAction><con:restMockAction name="/categories/categories/" method="GET" resourcePath="categories/categories" id="9fcd3138-45ac-4c84-8a31-0364b43de914"><con:settings/><con:defaultResponse>Categories Successful</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>def requestPath = mockRequest.getPath()
  
@@ -87,7 +89,831 @@ if (requestPath ==  "/magento_1.9/index.php/phonegapapp/categories/categories") 
       }else
   	 {
     		return "Categories failed"    	
-   	 }</con:dispatchPath><con:response name="Categories Successful" id="9a6a791d-8705-4ef5-adb5-fd6d872b110e" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{"category_id":1,"parent_id":0,"name":"Root Catalog","position":9,"level":0,"children":[{"category_id":2,"parent_id":1,"name":"Default Category","is_active":1,"position":9,"level":1,"children":[{"category_id":5,"parent_id":2,"name":"Accessories","is_active":1,"position":0,"level":2,"children":[]},{"category_id":6,"parent_id":2,"name":"Footwear","is_active":1,"position":1,"level":2,"children":[{"category_id":7,"parent_id":6,"name":"Kids","is_active":1,"position":1,"level":3,"children":[{"category_id":50,"parent_id":7,"name":"Lorem ipsum ","is_active":1,"position":1,"level":4,"children":[]},{"category_id":51,"parent_id":7,"name":"Dolor sit amet ","is_active":1,"position":2,"level":4,"children":[]},{"category_id":52,"parent_id":7,"name":"Conse ctetur adipisicing ","is_active":1,"position":3,"level":4,"children":[]},{"category_id":53,"parent_id":7,"name":"Do eiusmod tempor","is_active":1,"position":4,"level":4,"children":[]},{"category_id":54,"parent_id":7,"name":"Incididunt ut labore","is_active":1,"position":5,"level":4,"children":[]},{"category_id":55,"parent_id":7,"name":"Et dolore magna ","is_active":1,"position":6,"level":4,"children":[]},{"category_id":56,"parent_id":7,"name":"Enim ad minim veniam","is_active":1,"position":7,"level":4,"children":[]},{"category_id":57,"parent_id":7,"name":"Quis nostrud","is_active":1,"position":8,"level":4,"children":[]}]},{"category_id":10,"parent_id":6,"name":"Man","is_active":1,"position":2,"level":3,"children":[{"category_id":58,"parent_id":10,"name":"Nisi ut aliquip","is_active":1,"position":1,"level":4,"children":[]},{"category_id":59,"parent_id":10,"name":"Ex ea commodo","is_active":1,"position":2,"level":4,"children":[]},{"category_id":60,"parent_id":10,"name":"Duis aute","is_active":1,"position":3,"level":4,"children":[]},{"category_id":61,"parent_id":10,"name":"Excepteur sint","is_active":1,"position":4,"level":4,"children":[]},{"category_id":62,"parent_id":10,"name":"Sunt in culpa","is_active":1,"position":5,"level":4,"children":[]},{"category_id":63,"parent_id":10,"name":"Id est laborum","is_active":1,"position":6,"level":4,"children":[]},{"category_id":64,"parent_id":10,"name":"Sed ut perspiciatis","is_active":1,"position":7,"level":4,"children":[]}]},{"category_id":8,"parent_id":6,"name":"Woman","is_active":1,"position":3,"level":3,"children":[{"category_id":65,"parent_id":8,"name":"Adipisci velit","is_active":1,"position":1,"level":4,"children":[]},{"category_id":66,"parent_id":8,"name":"Sed quia","is_active":1,"position":2,"level":4,"children":[]},{"category_id":67,"parent_id":8,"name":"Eius modi","is_active":1,"position":3,"level":4,"children":[]},{"category_id":68,"parent_id":8,"name":"Esse quam nihil","is_active":1,"position":4,"level":4,"children":[]},{"category_id":69,"parent_id":8,"name":"At vero eos","is_active":1,"position":5,"level":4,"children":[]},{"category_id":70,"parent_id":8,"name":"Odio dignissimos","is_active":1,"position":6,"level":4,"children":[]},{"category_id":71,"parent_id":8,"name":"Eius modi tempora","is_active":1,"position":7,"level":4,"children":[]},{"category_id":72,"parent_id":8,"name":"Et dolore","is_active":1,"position":8,"level":4,"children":[]}]},{"category_id":47,"parent_id":6,"name":"Do eiusmod tempor","is_active":1,"position":4,"level":3,"children":[{"category_id":73,"parent_id":47,"name":"Lorem ipsum dolor","is_active":1,"position":1,"level":4,"children":[]},{"category_id":74,"parent_id":47,"name":"Consectetur adipiscing elit","is_active":1,"position":2,"level":4,"children":[]},{"category_id":75,"parent_id":47,"name":"Et dolore magna ","is_active":1,"position":3,"level":4,"children":[]},{"category_id":76,"parent_id":47,"name":"Eiusmod tempor incididunt","is_active":1,"position":4,"level":4,"children":[]},{"category_id":77,"parent_id":47,"name":"Labore et dolore","is_active":1,"position":5,"level":4,"children":[]},{"category_id":78,"parent_id":47,"name":"Duis aute irure","is_active":1,"position":6,"level":4,"children":[]}]},{"category_id":48,"parent_id":6,"name":"Et dolore magna ","is_active":1,"position":5,"level":3,"children":[{"category_id":79,"parent_id":48,"name":"Lorem ipsum ","is_active":1,"position":1,"level":4,"children":[]},{"category_id":80,"parent_id":48,"name":"Dolor sit amet","is_active":1,"position":2,"level":4,"children":[]},{"category_id":81,"parent_id":48,"name":"Conse ctetur adipisicing","is_active":1,"position":3,"level":4,"children":[]},{"category_id":82,"parent_id":48,"name":"Do eiusmod tempor","is_active":1,"position":4,"level":4,"children":[]},{"category_id":83,"parent_id":48,"name":"Incididunt ut labore","is_active":1,"position":5,"level":4,"children":[]},{"category_id":84,"parent_id":48,"name":"Et dolore magna ","is_active":1,"position":6,"level":4,"children":[]},{"category_id":85,"parent_id":48,"name":"Enim ad minim veniam","is_active":1,"position":7,"level":4,"children":[]}]},{"category_id":49,"parent_id":6,"name":"Et dolore magna ","is_active":1,"position":6,"level":3,"children":[{"category_id":86,"parent_id":49,"name":"Et dolore magna ","is_active":1,"position":1,"level":4,"children":[]},{"category_id":87,"parent_id":49,"name":"Dolor sit amet","is_active":1,"position":2,"level":4,"children":[]},{"category_id":88,"parent_id":49,"name":"Incididunt ut labore ","is_active":1,"position":3,"level":4,"children":[]},{"category_id":89,"parent_id":49,"name":"Do eiusmod tempor","is_active":1,"position":4,"level":4,"children":[]},{"category_id":90,"parent_id":49,"name":"Incididunt ut labore","is_active":1,"position":5,"level":4,"children":[]},{"category_id":91,"parent_id":49,"name":"Conse ctetur ","is_active":1,"position":6,"level":4,"children":[]},{"category_id":92,"parent_id":49,"name":"Enim ad minim veniam","is_active":1,"position":7,"level":4,"children":[]}]}]},{"category_id":9,"parent_id":2,"name":"Handbags","is_active":1,"position":2,"level":2,"children":[{"category_id":93,"parent_id":9,"name":"Test Category","is_active":1,"position":1,"level":3,"children":[]}]},{"category_id":19,"parent_id":2,"name":"Kids","is_active":1,"position":3,"level":2,"children":[{"category_id":94,"parent_id":19,"name":"Test Category2","is_active":1,"position":1,"level":3,"children":[]}]},{"category_id":14,"parent_id":2,"name":"Men","is_active":1,"position":4,"level":2,"children":[]},{"category_id":15,"parent_id":2,"name":"Women","is_active":1,"position":5,"level":2,"children":[]},{"category_id":11,"parent_id":2,"name":"Lingerie","is_active":0,"position":6,"level":2,"children":[]},{"category_id":20,"parent_id":2,"name":"men","is_active":0,"position":7,"level":2,"children":[]},{"category_id":21,"parent_id":2,"name":"women","is_active":0,"position":8,"level":2,"children":[]},{"category_id":12,"parent_id":2,"name":"Workwear","is_active":0,"position":9,"level":2,"children":[]},{"category_id":13,"parent_id":2,"name":"New Products","is_active":0,"position":10,"level":2,"children":[]}]}]}</con:responseContent></con:response><con:response name="Categories failed" id="79f54f91-2d4e-4ffd-a646-8e2b48324c75" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
+   	 }</con:dispatchPath><con:response name="Categories Successful" id="9a6a791d-8705-4ef5-adb5-fd6d872b110e" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
+    "category_id": 1,
+    "parent_id": 0,
+    "name": "Root Catalog",
+    "position": 9,
+    "level": 0,
+    "children": [
+        {
+            "category_id": 2,
+            "parent_id": 1,
+            "name": "Default Category",
+            "is_active": 1,
+            "position": 9,
+            "level": 1,
+            "children": [
+                {
+                    "category_id": 5,
+                    "parent_id": 2,
+                    "name": "Accessories",
+                    "is_active": 1,
+                    "position": 0,
+                    "level": 2,
+                    "children": []
+                },
+                {
+                    "category_id": 6,
+                    "parent_id": 2,
+                    "name": "Footwear",
+                    "is_active": 1,
+                    "position": 1,
+                    "level": 2,
+                    "children": [
+                        {
+                            "category_id": 7,
+                            "parent_id": 6,
+                            "name": "Kids",
+                            "is_active": 1,
+                            "position": 1,
+                            "level": 3,
+                            "children": [
+                                {
+                                    "category_id": 50,
+                                    "parent_id": 7,
+                                    "name": "Lorem ipsum ",
+                                    "is_active": 1,
+                                    "position": 1,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 51,
+                                    "parent_id": 7,
+                                    "name": "Dolor sit amet ",
+                                    "is_active": 1,
+                                    "position": 2,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 52,
+                                    "parent_id": 7,
+                                    "name": "Conse ctetur adipisicing ",
+                                    "is_active": 1,
+                                    "position": 3,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 53,
+                                    "parent_id": 7,
+                                    "name": "Do eiusmod tempor",
+                                    "is_active": 1,
+                                    "position": 4,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 54,
+                                    "parent_id": 7,
+                                    "name": "Incididunt ut labore",
+                                    "is_active": 1,
+                                    "position": 5,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 55,
+                                    "parent_id": 7,
+                                    "name": "Et dolore magna ",
+                                    "is_active": 1,
+                                    "position": 6,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 56,
+                                    "parent_id": 7,
+                                    "name": "Enim ad minim veniam",
+                                    "is_active": 1,
+                                    "position": 7,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 57,
+                                    "parent_id": 7,
+                                    "name": "Quis nostrud",
+                                    "is_active": 1,
+                                    "position": 8,
+                                    "level": 4,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "category_id": 10,
+                            "parent_id": 6,
+                            "name": "Man",
+                            "is_active": 1,
+                            "position": 2,
+                            "level": 3,
+                            "children": [
+                                {
+                                    "category_id": 58,
+                                    "parent_id": 10,
+                                    "name": "Nisi ut aliquip",
+                                    "is_active": 1,
+                                    "position": 1,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 59,
+                                    "parent_id": 10,
+                                    "name": "Ex ea commodo",
+                                    "is_active": 1,
+                                    "position": 2,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 60,
+                                    "parent_id": 10,
+                                    "name": "Duis aute",
+                                    "is_active": 1,
+                                    "position": 3,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 61,
+                                    "parent_id": 10,
+                                    "name": "Excepteur sint",
+                                    "is_active": 1,
+                                    "position": 4,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 62,
+                                    "parent_id": 10,
+                                    "name": "Sunt in culpa",
+                                    "is_active": 1,
+                                    "position": 5,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 63,
+                                    "parent_id": 10,
+                                    "name": "Id est laborum",
+                                    "is_active": 1,
+                                    "position": 6,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 64,
+                                    "parent_id": 10,
+                                    "name": "Sed ut perspiciatis",
+                                    "is_active": 1,
+                                    "position": 7,
+                                    "level": 4,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "category_id": 8,
+                            "parent_id": 6,
+                            "name": "Woman",
+                            "is_active": 1,
+                            "position": 3,
+                            "level": 3,
+                            "children": [
+                                {
+                                    "category_id": 65,
+                                    "parent_id": 8,
+                                    "name": "Adipisci velit",
+                                    "is_active": 1,
+                                    "position": 1,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 66,
+                                    "parent_id": 8,
+                                    "name": "Sed quia",
+                                    "is_active": 1,
+                                    "position": 2,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 67,
+                                    "parent_id": 8,
+                                    "name": "Eius modi",
+                                    "is_active": 1,
+                                    "position": 3,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 68,
+                                    "parent_id": 8,
+                                    "name": "Esse quam nihil",
+                                    "is_active": 1,
+                                    "position": 4,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 69,
+                                    "parent_id": 8,
+                                    "name": "At vero eos",
+                                    "is_active": 1,
+                                    "position": 5,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 70,
+                                    "parent_id": 8,
+                                    "name": "Odio dignissimos",
+                                    "is_active": 1,
+                                    "position": 6,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 71,
+                                    "parent_id": 8,
+                                    "name": "Eius modi tempora",
+                                    "is_active": 1,
+                                    "position": 7,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 72,
+                                    "parent_id": 8,
+                                    "name": "Et dolore",
+                                    "is_active": 1,
+                                    "position": 8,
+                                    "level": 4,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "category_id": 47,
+                            "parent_id": 6,
+                            "name": "Do eiusmod tempor",
+                            "is_active": 1,
+                            "position": 4,
+                            "level": 3,
+                            "children": [
+                                {
+                                    "category_id": 73,
+                                    "parent_id": 47,
+                                    "name": "Lorem ipsum dolor",
+                                    "is_active": 1,
+                                    "position": 1,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 74,
+                                    "parent_id": 47,
+                                    "name": "Consectetur adipiscing elit",
+                                    "is_active": 1,
+                                    "position": 2,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 75,
+                                    "parent_id": 47,
+                                    "name": "Et dolore magna ",
+                                    "is_active": 1,
+                                    "position": 3,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 76,
+                                    "parent_id": 47,
+                                    "name": "Eiusmod tempor incididunt",
+                                    "is_active": 1,
+                                    "position": 4,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 77,
+                                    "parent_id": 47,
+                                    "name": "Labore et dolore",
+                                    "is_active": 1,
+                                    "position": 5,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 78,
+                                    "parent_id": 47,
+                                    "name": "Duis aute irure",
+                                    "is_active": 1,
+                                    "position": 6,
+                                    "level": 4,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "category_id": 48,
+                            "parent_id": 6,
+                            "name": "Et dolore magna ",
+                            "is_active": 1,
+                            "position": 5,
+                            "level": 3,
+                            "children": [
+                                {
+                                    "category_id": 79,
+                                    "parent_id": 48,
+                                    "name": "Lorem ipsum ",
+                                    "is_active": 1,
+                                    "position": 1,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 80,
+                                    "parent_id": 48,
+                                    "name": "Dolor sit amet",
+                                    "is_active": 1,
+                                    "position": 2,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 81,
+                                    "parent_id": 48,
+                                    "name": "Conse ctetur adipisicing",
+                                    "is_active": 1,
+                                    "position": 3,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 82,
+                                    "parent_id": 48,
+                                    "name": "Do eiusmod tempor",
+                                    "is_active": 1,
+                                    "position": 4,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 83,
+                                    "parent_id": 48,
+                                    "name": "Incididunt ut labore",
+                                    "is_active": 1,
+                                    "position": 5,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 84,
+                                    "parent_id": 48,
+                                    "name": "Et dolore magna ",
+                                    "is_active": 1,
+                                    "position": 6,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 85,
+                                    "parent_id": 48,
+                                    "name": "Enim ad minim veniam",
+                                    "is_active": 1,
+                                    "position": 7,
+                                    "level": 4,
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "category_id": 49,
+                            "parent_id": 6,
+                            "name": "Et dolore magna ",
+                            "is_active": 1,
+                            "position": 6,
+                            "level": 3,
+                            "children": [
+                                {
+                                    "category_id": 86,
+                                    "parent_id": 49,
+                                    "name": "Et dolore magna ",
+                                    "is_active": 1,
+                                    "position": 1,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 87,
+                                    "parent_id": 49,
+                                    "name": "Dolor sit amet",
+                                    "is_active": 1,
+                                    "position": 2,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 88,
+                                    "parent_id": 49,
+                                    "name": "Incididunt ut labore ",
+                                    "is_active": 1,
+                                    "position": 3,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 89,
+                                    "parent_id": 49,
+                                    "name": "Do eiusmod tempor",
+                                    "is_active": 1,
+                                    "position": 4,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 90,
+                                    "parent_id": 49,
+                                    "name": "Incididunt ut labore",
+                                    "is_active": 1,
+                                    "position": 5,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 91,
+                                    "parent_id": 49,
+                                    "name": "Conse ctetur ",
+                                    "is_active": 1,
+                                    "position": 6,
+                                    "level": 4,
+                                    "children": []
+                                },
+                                {
+                                    "category_id": 92,
+                                    "parent_id": 49,
+                                    "name": "Enim ad minim veniam",
+                                    "is_active": 1,
+                                    "position": 7,
+                                    "level": 4,
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "category_id": 9,
+                    "parent_id": 2,
+                    "name": "Handbags",
+                    "is_active": 1,
+                    "position": 2,
+                    "level": 2,
+                    "children": [
+                        {
+                            "category_id": 93,
+                            "parent_id": 9,
+                            "name": "Test Category",
+                            "is_active": 1,
+                            "position": 1,
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "category_id": 19,
+                    "parent_id": 2,
+                    "name": "Kids",
+                    "is_active": 1,
+                    "position": 3,
+                    "level": 2,
+                    "children": [
+                        {
+                            "category_id": 94,
+                            "parent_id": 19,
+                            "name": "Test Category2",
+                            "is_active": 1,
+                            "position": 1,
+                            "level": 3,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "category_id": 14,
+                    "parent_id": 2,
+                    "name": "Men",
+                    "is_active": 1,
+                    "position": 4,
+                    "level": 2,
+                    "children": []
+                },
+                {
+                    "category_id": 15,
+                    "parent_id": 2,
+                    "name": "Women",
+                    "is_active": 1,
+                    "position": 5,
+                    "level": 2,
+                    "children": []
+                },
+                {
+                    "category_id": 11,
+                    "parent_id": 2,
+                    "name": "Lingerie",
+                    "is_active": 0,
+                    "position": 6,
+                    "level": 2,
+                    "children": []
+                },
+                {
+                    "category_id": 20,
+                    "parent_id": 2,
+                    "name": "men",
+                    "is_active": 0,
+                    "position": 7,
+                    "level": 2,
+                    "children": []
+                },
+                {
+                    "category_id": 21,
+                    "parent_id": 2,
+                    "name": "women",
+                    "is_active": 0,
+                    "position": 8,
+                    "level": 2,
+                    "children": []
+                },
+                {
+                    "category_id": 12,
+                    "parent_id": 2,
+                    "name": "Workwear",
+                    "is_active": 0,
+                    "position": 9,
+                    "level": 2,
+                    "children": []
+                },
+                {
+                    "category_id": 13,
+                    "parent_id": 2,
+                    "name": "New Products",
+                    "is_active": 0,
+                    "position": 10,
+                    "level": 2,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}</con:responseContent></con:response><con:response name="Categories failed" id="79f54f91-2d4e-4ffd-a646-8e2b48324c75" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
     "error": "1",
     "errorMsg": "Invalid path"
-}</con:responseContent></con:response></con:restMockAction></con:restMockService><con:properties><con:property><con:name>contextPath</con:name><con:value>/magento_1.9/index.php/phonegapapp/</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+}</con:responseContent></con:response></con:restMockAction><con:restMockAction name="/cart/addCart/" method="POST" resourcePath="cart/addCart" id="b9459b41-fea3-473c-9cbd-936b08847272"><con:settings/><con:defaultResponse>ProductId 0</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>import groovy.json.JsonSlurper
+import groovy.json.JsonOutput
+// The password you entered is incorrect. Please try again.// Match based on path
+
+def requestPath = mockRequest.getPath()
+info.log requestPath
+// Match based on body
+def requestBody = mockRequest.getRequestContent()
+
+log.info jsonReq.id
+
+if (requestPath ==  "/magento_1.9/index.php/phonegapapp/cart/addCart/") 
+ {
+ 	log.info jsonReq.id
+			def jsonReq = new JsonSlurper().parseText(requestBody)
+ 	
+    		     if(jsonReq.id == "0")
+    			{
+    				
+      			return "ProductId 0"
+    			}
+   			 else if(jsonReq.id == "1")
+    			{
+    				
+      			return "ProductId 1"
+    			}
+
+    			 else if(jsonReq.id == "2")
+    			{
+    				
+      			return "ProductId 2"
+    			}
+
+    			 else if(jsonReq.id == "3")
+    			{
+    				
+      			return "ProductId 3"
+    			}
+
+    			 else if(jsonReq.id == "4")
+    			{
+    				
+      			return "ProductId 4"
+    			}
+
+    			 else if(jsonReq.id == "5")
+    			{
+    				
+      			return "ProductId 5"
+    			}
+
+    			 else if(jsonReq.id == "6")
+    			{
+    				
+      			return "ProductId 6"
+    			}
+
+    			 else if(jsonReq.id == "7")
+    			{
+    				
+      			return "ProductId 7"
+    			}
+    			else
+    			{
+    		     	return "Invalid Product"
+    		     }
+   				
+          }
+    else
+    {
+
+    		return "Cart Incorrect Path"
+    	
+    }</con:dispatchPath><con:response name="ProductId 0" id="8e6b81bb-9d17-49c1-a78a-2e834931ba43" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[{
+        "id": "0",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    }];</con:responseContent></con:response><con:response name="Cart Incorrect Path" id="0b078a20-46b4-47be-b1e2-09135d257eff" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
+    "error": "404",
+    "errorMsg": "The path is incorrect. Please try again."
+}</con:responseContent></con:response><con:response name="ProductId 1" id="c92f0736-5be7-42c8-b47f-c814da237215" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[ {
+        "id": "1",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    }];</con:responseContent></con:response><con:response name="ProductId 2" id="d6fa809c-8d26-4726-be09-60a5b6906322" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[ {
+        "id": "2",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    }];</con:responseContent></con:response><con:response name="ProductId 3" id="b7bde98d-b2f2-482b-8f0d-761fe053bb11" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[ {
+        "id": "4",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
+    }
+  ];</con:responseContent></con:response><con:response name="ProductId 4" id="a404f819-38bb-409c-b021-d114b1754a44" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[ {
+        "id": "4",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
+    }];</con:responseContent></con:response><con:response name="ProductId 5" id="cebf9ad4-d34f-43e9-b7db-126ff0ae964d" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+  {
+        "id": "5",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
+    }];</con:responseContent></con:response><con:response name="ProductId 6" id="7a1e82d5-4a1c-4c19-b0ec-6112c8845991" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+  {
+    id: 6,
+    name: 'Newlanders',
+    price: '170',
+    type: 'low',
+    brand: 'Oxford',
+    color: 'orange',
+    img: 'product3.png'
+  }];</con:responseContent></con:response><con:response name="ProductId 7" id="4a210650-8040-4455-9848-a591a54b2af5" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+  {
+    id: 7,
+    name: 'High Rakcs',
+    price: '425',
+    type: 'high',
+    brand: 'Oxford',
+    color: 'blue',
+    img: 'product4.png'
+  }];</con:responseContent></con:response><con:response name="Invalid Product" id="3c6b188f-9077-4c6c-9c49-550505301e83" httpResponseStatus="200"><con:settings/><con:responseContent>{
+    "error": "405",
+    "errorMsg": "Product Id is invalid. Please try again."
+}</con:responseContent></con:response></con:restMockAction><con:restMockAction name="/categories/categoryDetail/" method="POST" resourcePath="categories/categoryDetail" id="06cc21b5-0048-458f-971c-29e2b90b9492"><con:settings/><con:defaultResponse>CategoryId 6</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>import groovy.json.JsonSlurper
+import groovy.json.JsonOutput
+
+def requestPath = mockRequest.getPath()
+
+def requestBody = mockRequest.getRequestContent()
+
+if (requestPath ==  "/magento_1.9/index.php/phonegapapp/categories/categoryDetail/") 
+  {
+    	def jsonReq = new JsonSlurper().parseText(requestBody)
+ 	log.info jsonReq.catId
+     
+       if(jsonReq.catId == "6") 
+       {
+         return "CategoryId 6"
+       }
+       else if(jsonReq.catId == "7")  
+       {
+       	return "CategoryId 7"
+       }
+           	
+   }else
+   {
+    		return "Category Detail Incorrect Path"    	
+   }
+   	</con:dispatchPath><con:response name="CategoryId 6" id="b717596f-d8bd-40c1-839e-69aa7ecb38e5" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+    {
+        "id": "0",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
+    },
+    {
+        "id": "1",
+        "name": "PerforatedOxfords",
+        "price": "180",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
+    },
+    {
+        "id": "2",
+        "name": "G.HBass&amp;Co.Oxfords",
+        "price": "158",
+        "type": "low",
+        "brand": "Freaky",
+        "color": "orange",
+        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
+    }
+]</con:responseContent></con:response><con:response name="Category Detail Incorrect Path" id="6c09efba-f4bc-4b8c-baf8-8e56e9ed23f6" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
+    "error": "404",
+    "errorMsg": "The path is incorrect. Please try again."
+}</con:responseContent></con:response><con:response name="CategoryId 7" id="204997a0-fe11-4771-8d81-adb78f573f68" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+    {
+        "id": "3",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    },
+    {
+        "id": "4",
+        "name": "PerforatedOxfords",
+        "price": "180",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    },
+    {
+        "id": "5",
+        "name": "G.HBass&amp;Co.Oxfords",
+        "price": "158",
+        "type": "low",
+        "brand": "Freaky",
+        "color": "orange",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    }
+]</con:responseContent></con:response></con:restMockAction></con:restMockService><con:properties><con:property><con:name>contextPath</con:name><con:value>/magento_1.9/index.php/phonegapapp/</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
