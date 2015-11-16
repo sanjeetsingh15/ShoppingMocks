@@ -80,14 +80,14 @@ if (requestPath ==  "/magento_1.9/index.php/phonegapapp/users/login") {
 }</con:responseContent></con:response><con:response name="Login Incorrect Path" id="4562de0e-2486-43da-98b6-113650478c30" httpResponseStatus="200"><con:settings/><con:responseContent>{
     "error": "3",
     "errorMsg": "The path is incorrect. Please try again."
-}</con:responseContent></con:response></con:restMockAction><con:restMockAction name="/categories/categories/" method="GET" resourcePath="/categories/categories/" id="9fcd3138-45ac-4c84-8a31-0364b43de914"><con:settings/><con:defaultResponse xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>def requestPath = mockRequest.getPath()
+}</con:responseContent></con:response></con:restMockAction><con:restMockAction name="/categories/categories/" method="GET" resourcePath="categories/categories" id="9fcd3138-45ac-4c84-8a31-0364b43de914"><con:settings/><con:defaultResponse>Categories Successful</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>def requestPath = mockRequest.getPath()
  
-if (requestPath ==  "/magento_1.9/index.php/phonegapapp/users/login") {
+if (requestPath ==  "/magento_1.9/index.php/phonegapapp/categories/categories") {
     		return "Categories Successful"    	
       }else
   	 {
     		return "Categories failed"    	
-   	 }</con:dispatchPath><con:response name="Categories Successful" id="9a6a791d-8705-4ef5-adb5-fd6d872b110e" httpResponseStatus="200"><con:settings/><con:responseContent>Response : "category_id":1,"parent_id":0,"name":"Root Catalog","position":9,"level":0,"children":[{"category_id":2,"parent_id":1,"name":"Default Category","is_active":1,"position":9,"level":1,"children":[{"category_id":5,"parent_id":2,"name":"Accessories","is_active":1,"position":0,"level":2,"children":[]}</con:responseContent></con:response><con:response name="Categories failed" id="79f54f91-2d4e-4ffd-a646-8e2b48324c75" httpResponseStatus="200"><con:settings/><con:responseContent>{
+   	 }</con:dispatchPath><con:response name="Categories Successful" id="9a6a791d-8705-4ef5-adb5-fd6d872b110e" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>Response : "category_id":1,"parent_id":0,"name":"Root Catalog","position":9,"level":0,"children":[{"category_id":2,"parent_id":1,"name":"Default Category","is_active":1,"position":9,"level":1,"children":[{"category_id":5,"parent_id":2,"name":"Accessories","is_active":1,"position":0,"level":2,"children":[]}</con:responseContent></con:response><con:response name="Categories failed" id="79f54f91-2d4e-4ffd-a646-8e2b48324c75" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
     "error": "1",
     "errorMsg": "Invalid path"
 }</con:responseContent></con:response></con:restMockAction></con:restMockService><con:properties><con:property><con:name>contextPath</con:name><con:value>/magento_1.9/index.php/phonegapapp/</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
