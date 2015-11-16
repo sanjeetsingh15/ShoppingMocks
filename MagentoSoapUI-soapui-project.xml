@@ -3,7 +3,8 @@
   <con:entry key="email" value="sarvagya.pandey@netsolutionsindia.com"/>
   <con:entry key="password" value="123456"/>
 </con:parameters><con:parameterOrder><con:entry>email</con:entry><con:entry>password</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:restMockService id="f8718c52-a97a-4b7e-b4c1-95a6623b17ed" port="8025" path="/magento_1.9/index.php/phonegapapp/" host="WKS231" name="MagentoMobileMockAPI" docroot=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.panels.mock.WsdlMockServiceDesktopPanel$LogListModel@maxSize">100</con:setting></con:settings><con:properties/><con:restMockAction name="/users/login/" method="GET" resourcePath="users/login" id="598551ff-8d1c-46bc-966a-acc5cd44cc47"><con:settings/><con:defaultResponse>Login Successful</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>// The password you entered is incorrect. Please try again.// Match based on path
-// 
+
+
 def requestPath = mockRequest.getPath()
 
 // Match based on header
@@ -23,7 +24,6 @@ def requestBody = mockRequest.getRequestContent()
 //log.info "Request body: " + requestBodymagento_1.9/index.php/phonegapapp
 
 //def response = mockRequest.httpResponse
-
 
  
 if (requestPath ==  "/magento_1.9/index.php/phonegapapp/users/login") {
