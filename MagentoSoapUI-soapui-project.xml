@@ -770,7 +770,6 @@ def requestPath = mockRequest.getPath()
 
 // Match based on body
 
-
 if (requestPath ==  "/magento_1.9/index.php/phonegapapp/Product/ProductDetail/") 
    {
 
