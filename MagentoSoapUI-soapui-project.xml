@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="24a7042c-f8e1-48f2-9eb8-c450ee9434ce" activeEnvironment="Default" name="MagentoSoapUI" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="398a42e3-1d56-45b8-b6a3-b9266dc465fd" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8025" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://WKS231:8089/</con:endpoint><con:endpoint>http://localhost:8025</con:endpoint></con:endpoints><con:resource name="" path="/users/login/" id="3e1504e6-66fa-417b-9ffc-b742e616b68f"><con:settings/><con:parameters/><con:method name="" id="84d4954a-ca45-4408-acb9-9a1f60aa7686" method="POST"><con:settings><con:setting id="RecordResponseRepresentations">true</con:setting></con:settings><con:parameters/><con:representation type="RESPONSE"><con:mediaType>text/html; charset=iso-8859-1</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="c5c16f4b-dd40-423a-9888-1068a6b2f416" mediaType="application/x-www-form-urlencoded" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:originalUri>http://localhost/users/login</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource><con:resource name="" path="/categories/categories/" id="e2fdb9c4-f178-4ad1-828e-6717f8b5a714"><con:settings/><con:parameters/><con:method name="Method 1" id="f36a2c18-b694-4cf1-8718-9ceb42343ab5" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="d2e751f8-1a7f-4078-83fa-4636e9b86e93" mediaType="application/json"><con:settings/><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="" path="/categories/categoryDetail/" id="b481760e-5eda-47ad-9707-00faa086fce1"><con:settings/><con:parameters/><con:method name="Method 1" id="8fe89b5f-12ad-46aa-8688-62d3f4375035" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="20c164cc-c6c8-4a94-be48-70693169f7b9" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="" path="/cart/addCart/" id="435e6e48-80b9-46ad-88b4-5456b107c16e"><con:settings/><con:parameters/><con:method name="Method 1" id="a5c821aa-f5fc-4910-b1ce-a61a86946ff5" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="b505e9b4-8fc6-43da-98d0-7a762782ad19" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:restMockService id="f8718c52-a97a-4b7e-b4c1-95a6623b17ed" port="8025" path="/magento_1.9/index.php/phonegapapp/" host="WKS231" name="MagentoMobileMockAPI" docroot=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.panels.mock.WsdlMockServiceDesktopPanel$LogListModel@maxSize">100</con:setting></con:settings><con:properties/><con:restMockAction name="/users/login/" method="POST" resourcePath="users/login" id="598551ff-8d1c-46bc-966a-acc5cd44cc47"><con:settings/><con:defaultResponse>Login Successful</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>import groovy.json.JsonSlurper
+<con:soapui-project id="24a7042c-f8e1-48f2-9eb8-c450ee9434ce" activeEnvironment="Default" name="MagentoSoapUI" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="398a42e3-1d56-45b8-b6a3-b9266dc465fd" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://localhost:8025" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://WKS231:8089/</con:endpoint><con:endpoint>http://localhost:8025</con:endpoint></con:endpoints><con:resource name="" path="/users/login/" id="3e1504e6-66fa-417b-9ffc-b742e616b68f"><con:settings/><con:parameters/><con:method name="" id="84d4954a-ca45-4408-acb9-9a1f60aa7686" method="POST"><con:settings><con:setting id="RecordResponseRepresentations">true</con:setting></con:settings><con:parameters/><con:representation type="RESPONSE"><con:mediaType>text/html; charset=iso-8859-1</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:request name="Request 1" id="c5c16f4b-dd40-423a-9888-1068a6b2f416" mediaType="application/x-www-form-urlencoded" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:originalUri>http://localhost/users/login</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource><con:resource name="" path="/categories/categories/" id="e2fdb9c4-f178-4ad1-828e-6717f8b5a714"><con:settings/><con:parameters/><con:method name="Method 1" id="f36a2c18-b694-4cf1-8718-9ceb42343ab5" method="GET"><con:settings/><con:parameters/><con:request name="Request 1" id="d2e751f8-1a7f-4078-83fa-4636e9b86e93" mediaType="application/json"><con:settings/><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="" path="/categories/categoryDetail/" id="b481760e-5eda-47ad-9707-00faa086fce1"><con:settings/><con:parameters/><con:method name="Method 1" id="8fe89b5f-12ad-46aa-8688-62d3f4375035" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="20c164cc-c6c8-4a94-be48-70693169f7b9" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="" path="/Product/ProductDetail/" id="feb8fec2-3e7c-4953-9037-5d7b099712f7"><con:settings/><con:parameters/><con:method name="Method 1" id="0371ecc4-3ab8-4142-b0d8-e6da18876cd9" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="fe4fce6e-48f9-4b59-84a9-422fba6211dd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8025</con:endpoint><con:request/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:restMockService id="f8718c52-a97a-4b7e-b4c1-95a6623b17ed" port="8025" path="/magento_1.9/index.php/phonegapapp/" host="WKS231" name="MagentoMobileMockAPI" docroot=""><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.panels.mock.WsdlMockServiceDesktopPanel$LogListModel@maxSize">100</con:setting></con:settings><con:properties/><con:restMockAction name="/users/login/" method="POST" resourcePath="users/login" id="598551ff-8d1c-46bc-966a-acc5cd44cc47"><con:settings/><con:defaultResponse>Login Successful</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
 // The password you entered is incorrect. Please try again.// Match based on path
 
@@ -677,87 +677,6 @@ if (requestPath ==  "/magento_1.9/index.php/phonegapapp/categories/categories") 
 }</con:responseContent></con:response><con:response name="Categories failed" id="79f54f91-2d4e-4ffd-a646-8e2b48324c75" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
     "error": "1",
     "errorMsg": "Invalid path"
-}</con:responseContent></con:response></con:restMockAction><con:restMockAction name="/cart/addCart_old/" method="POST" resourcePath="cart/addCart" id="b9459b41-fea3-473c-9cbd-936b08847272"><con:settings/><con:defaultResponse>ProductId 0 Response</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>def requestPath = mockRequest.getPath()
-info.log requestPath</con:dispatchPath><con:response name="ProductId 0 Response" id="8e6b81bb-9d17-49c1-a78a-2e834931ba43" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[{
-        "id": "0",
-        "name": "Newsneakers",
-        "price": "270",
-        "phone": "1234567",
-        "type": "low",
-        "brand": "Oxford",
-        "color": "black",
-        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
-    }]</con:responseContent></con:response><con:response name="Incorrect Path Response" id="0b078a20-46b4-47be-b1e2-09135d257eff" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
-    "error": "404",
-    "errorMsg": "The path is incorrect. Please try again."
-}</con:responseContent></con:response><con:response name="ProductId 1 Response" id="c92f0736-5be7-42c8-b47f-c814da237215" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[ {
-        "id": "1",
-        "name": "Newsneakers",
-        "price": "270",
-        "phone": "1234567",
-        "type": "low",
-        "brand": "Oxford",
-        "color": "black",
-        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
-    }]</con:responseContent></con:response><con:response name="ProductId 2 Response" id="d6fa809c-8d26-4726-be09-60a5b6906322" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[ {
-        "id": "2",
-        "name": "Newsneakers",
-        "price": "270",
-        "phone": "1234567",
-        "type": "low",
-        "brand": "Oxford",
-        "color": "black",
-        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
-    }]</con:responseContent></con:response><con:response name="ProductId 3 Response" id="b7bde98d-b2f2-482b-8f0d-761fe053bb11" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[ {
-        "id": "4",
-        "name": "Newsneakers",
-        "price": "270",
-        "phone": "1234567",
-        "type": "low",
-        "brand": "Oxford",
-        "color": "black",
-        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
-    }
-  ]</con:responseContent></con:response><con:response name="ProductId 4 Response" id="a404f819-38bb-409c-b021-d114b1754a44" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[ {
-        "id": "4",
-        "name": "Newsneakers",
-        "price": "270",
-        "phone": "1234567",
-        "type": "low",
-        "brand": "Oxford",
-        "color": "black",
-        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
-    }]</con:responseContent></con:response><con:response name="ProductId 5 Response" id="cebf9ad4-d34f-43e9-b7db-126ff0ae964d" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
-  {
-        "id": "5",
-        "name": "Newsneakers",
-        "price": "270",
-        "phone": "1234567",
-        "type": "low",
-        "brand": "Oxford",
-        "color": "black",
-        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
-    }]</con:responseContent></con:response><con:response name="ProductId 6 Response" id="7a1e82d5-4a1c-4c19-b0ec-6112c8845991" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
-  {
-    id: 6,
-    name: 'Newlanders',
-    price: '170',
-    type: 'low',
-    brand: 'Oxford',
-    color: 'orange',
-    img: 'product3.png'
-  }]</con:responseContent></con:response><con:response name="ProductId 7 Response" id="4a210650-8040-4455-9848-a591a54b2af5" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
-  {
-    id: 7,
-    name: 'High Rakcs',
-    price: '425',
-    type: 'high',
-    brand: 'Oxford',
-    color: 'blue',
-    img: 'product4.png'
-  }]</con:responseContent></con:response><con:response name="Invalid ProductId Response" id="3c6b188f-9077-4c6c-9c49-550505301e83" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
-    "error": "405",
-    "errorMsg": "Product Id is invalid. Please try again."
 }</con:responseContent></con:response></con:restMockAction><con:restMockAction name="/categories/categoryDetail/" method="POST" resourcePath="categories/categoryDetail" id="06cc21b5-0048-458f-971c-29e2b90b9492"><con:settings/><con:defaultResponse>CategoryId 6</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
 
@@ -768,7 +687,6 @@ def requestBody = mockRequest.getRequestContent()
 if (requestPath ==  "/magento_1.9/index.php/phonegapapp/categories/categoryDetail/") 
   {
     	def jsonReq = new JsonSlurper().parseText(requestBody)
- 	log.info jsonReq.catId
      
        if(jsonReq.catId == "6") 
        {
@@ -844,8 +762,159 @@ if (requestPath ==  "/magento_1.9/index.php/phonegapapp/categories/categoryDetai
         "color": "orange",
         "img": "http://www.theshoemen.com/images/small-shoes-02.png"
     }
-]</con:responseContent></con:response></con:restMockAction><con:restMockAction name="/cart/addCart/" method="POST" resourcePath="cart/addCart" id="d3d30df0-157d-45b0-9d95-058a8a1da0d8"><con:settings/><con:defaultResponse xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>// Match based on path
-def requestPath = mockRequest.getPath()
-log.info "Path: "+ requestPath
+]</con:responseContent></con:response></con:restMockAction><con:restMockAction name="/Product/ProductDetail/" method="POST" resourcePath="Product/ProductDetail" id="a030f2f4-8918-45f2-b0b3-036dc76f85f9"><con:settings/><con:defaultResponse>Invalid ProductId Response</con:defaultResponse><con:dispatchStyle>SCRIPT</con:dispatchStyle><con:dispatchPath>import groovy.json.JsonSlurper
+import groovy.json.JsonOutput
+// The password you entered is incorrect. Please try again.// Match based on path
 
-</con:dispatchPath></con:restMockAction></con:restMockService><con:properties><con:property><con:name>contextPath</con:name><con:value>/magento_1.9/index.php/phonegapapp/</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+def requestPath = mockRequest.getPath()
+
+// Match based on body
+
+
+if (requestPath ==  "/magento_1.9/index.php/phonegapapp/Product/ProductDetail/") 
+   {
+
+   	  def requestBody = mockRequest.getRequestContent()
+			
+ 	  def jsonReq = new JsonSlurper().parseText(requestBody)
+
+    		    if(jsonReq.id == "0")
+    			{
+    				
+      			  return "ProductId 0 Response"
+    			}
+   			    else if(jsonReq.id == "1")
+    			{
+    			    return "ProductId 1 Response"
+    			}
+
+    			else if(jsonReq.id == "2")
+    			{
+    				
+					return "ProductId 2 Response"
+    			}
+
+    			 else if(jsonReq.id == "3")
+    			{
+    				
+					return "ProductId 3 Response"
+    			}
+
+    			 else if(jsonReq.id == "4")
+    			{
+    				
+					return "ProductId 4 Response"
+    			}
+
+    			 else if(jsonReq.id == "5")
+    			{
+    				
+					return "ProductId 5 Response"
+    			}
+
+    			 else if(jsonReq.id == "6")
+    			{
+    				
+					return "ProductId 6 Response"
+    			}
+
+    			 else if(jsonReq.id == "7")
+    			{
+    				
+					return "ProductId 7 Response"
+    			}
+    			else
+    			{
+    		     	return "Invalid ProductId Response"
+    		    }
+   				
+   }
+    else
+    {
+
+    		return "Incorrect Path Response"
+    	
+    }</con:dispatchPath><con:response name="ProductId 0 Response" id="2e163ba8-500c-4592-9583-4603eb47377c" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+    {
+        "id": "0",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    }
+]</con:responseContent></con:response><con:response name="ProductId 1 Response" id="f950acdd-9c27-40f1-a4ec-af97bda715ca" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+    {
+        "id": "1",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
+    }
+]</con:responseContent></con:response><con:response name="ProductId 2 Response" id="450f4704-37dd-467b-b663-91d43df8dafc" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+    {
+        "id": "2",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-03.png"
+    }
+]</con:responseContent></con:response><con:response name="ProductId 3 Response" id="22f04b0a-f71e-419d-9968-1962a7df808d" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+    {
+        "id": "3",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    }
+]</con:responseContent></con:response><con:response name="ProductId 4 Response" id="f0e1574f-0978-4fac-a556-a60192b5f849" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+    {
+        "id": "0",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    }
+]</con:responseContent></con:response><con:response name="ProductId 5 Response" id="3558b69f-57f1-48f8-b7e6-f2a519595008" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+    {
+        "id": "5",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    }
+]</con:responseContent></con:response><con:response name="ProductId 6 Response" id="c0304871-e0d9-4138-acae-2c8e8ee5c8a4" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>[
+    {
+        "id": "6",
+        "name": "Newsneakers",
+        "price": "270",
+        "phone": "1234567",
+        "type": "low",
+        "brand": "Oxford",
+        "color": "black",
+        "img": "http://www.theshoemen.com/images/small-shoes-02.png"
+    }
+]</con:responseContent></con:response><con:response name="Invalid ProductId Response" id="7832e6bf-128b-4c18-9205-da986b2dc03b" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
+    "error": "405",
+    "errorMsg": "Product Id is invalid. Please try again."
+}</con:responseContent></con:response><con:response name="Incorrect Path Response" id="d8a366cf-4210-4a5d-ade3-b2d29e67ccad" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{
+    "error": "404",
+    "errorMsg": "The path is incorrect. Please try again."
+}</con:responseContent></con:response></con:restMockAction></con:restMockService><con:properties><con:property><con:name>contextPath</con:name><con:value>/magento_1.9/index.php/phonegapapp/</con:value></con:property></con:properties><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
