@@ -29,6 +29,7 @@ if (requestPath ==  "/magento_1.9/index.php/phonegapapp/users/login/")
  	
        if(jsonReq.email == "sarvagya.pandey@netsolutionsindia.com") 
     	      {
+    	      	
 	       if(jsonReq.password == "123456")
     			{
     				
@@ -47,7 +48,7 @@ if (requestPath ==  "/magento_1.9/index.php/phonegapapp/users/login/")
     		 return "Login Invalid Email"    	
    	   }
     }
-    else
+    elsehttp://localhost:8025/magento_1.9/index.php/phonegapapp/users/login/
     {
 
     		return "Login Incorrect Path"
